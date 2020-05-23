@@ -584,10 +584,10 @@
 			file="lib/versions.html"
 			todir="tools/zip_tmpl/license"
 		/>
-		<copy
-			file="readme.markdown"
+		<!-- copy
+			file="README.md"
 			todir="tools/zip_tmpl"
-		/>
+		/ -->
 
 		<antcall target="zip-portal-war" />
 
